@@ -6,6 +6,7 @@
 }
 
 header {
+  width: 100%;
   color: #fff;
   font-size: 18px;
   height: 56px;
@@ -16,4 +17,36 @@ header {
 
 header .fa-chevron-left {
   margin-right: 16px;
+}
+.main {
+  padding: 2%;
+  background: rgb(232, 174, 176);
+}
+input {
+  height: 30px;
+  width: 70%;
+  border: none;
+  margin-left: 20px;
+  font-size: 1.08rem;
+  padding: 3px;
+  margin: 2% 0;
+}
+.list {
+  padding: 2% 0;
+}
+.box-station {
+  width: 100%;
+  height: auto;
+  background: #212121;
+  color: #fff;
+  padding: 2%;
+  margin-bottom: 2px;
+}
+.data-station {
+  width: 80%;
+  display: inline-block;
+}
+
+.map {
+  height: 40vh;
 }
