@@ -14,7 +14,12 @@ const listItem = (station, update) => {
   boxStation.append(iconMap);
   boxStation.on('click',(e)=>{
     e.preventDefault();
+    alert("click");
+    console.log(state.selectedStation);
+    state.selectedStation = station;
+    console.log(state.selectedStation);
     update();
+    console.log(update);
   })
   return boxStation;
 }
@@ -31,8 +36,8 @@ const ListStation = (update) => {
 
   input.on('keyup',(e)=>{
       if (input.val() != "") {
-        var districtFiltered = filterByDistrict(state.stations,input.val());
-        reRender(listContainer,districtFiltered);
+        const districtFiltered = filterByDistrict(state.stations,input.val());
+        reRender(listContainer,districtFiltered,update);
       }
       // }else {
       //   render(root);
@@ -41,9 +46,9 @@ const ListStation = (update) => {
   return main;
 }
 
-const reRender = (listContainer, districtFiltered) => {
+const reRender = (listContainer, districtFiltered, update) => {
   listContainer.empty();
   districtFiltered.forEach(district => {
-    listContainer.append(listItem(district,_ =>{reRender(listContainer,districtFiltered);}));
+    listContainer.append(listItem(district,update));
   });
 }

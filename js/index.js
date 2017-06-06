@@ -4,11 +4,12 @@ const render = (root) => {
   root.empty();
   const wrapper = $('<div class="wrapper"></div>');
   wrapper.append(Header(_ => render(root)));
-  wrapper.append(ListStation(_ => render(root)));
-
+  //wrapper.append(ListStation(_ => render(root)));
+console.log(state.selectedStation);
   if (state.selectedStation == null) {
     wrapper.append(ListStation(_ => render(root)));
   }else {
+    alert("aki details");
     wrapper.append(StationDetails( _ => {render(root);}));
   }
 
