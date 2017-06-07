@@ -14,8 +14,6 @@ const listItem = (station, update) => {
   boxStation.append(iconMap);
   boxStation.on('click',(e)=>{
     e.preventDefault();
-    alert("click");
-    console.log(state.selectedStation);
     state.selectedStation = station;
     console.log(state.selectedStation);
     update();

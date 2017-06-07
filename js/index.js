@@ -9,8 +9,7 @@ console.log(state.selectedStation);
   if (state.selectedStation == null) {
     wrapper.append(ListStation(_ => render(root)));
   }else {
-    alert("aki details");
-    wrapper.append(StationDetails( _ => {render(root);}));
+    wrapper.append(StationDetails( _ => render(root)));
   }
 
   root.append(wrapper);

@@ -47,6 +47,7 @@ input {
   display: inline-block;
 }
 
-.map {
+#map {
   height: 40vh;
+  width: 100%;
 }
