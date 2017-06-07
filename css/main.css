@@ -18,10 +18,14 @@ header {
 header .fa-chevron-left {
   margin-right: 16px;
 }
+.display-none {
+  display: none;
+}
 .main {
   padding: 2%;
   background: rgb(232, 174, 176);
 }
+
 input {
   height: 30px;
   width: 70%;

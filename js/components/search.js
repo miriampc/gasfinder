@@ -16,6 +16,7 @@ const listItem = (station, update) => {
     e.preventDefault();
     state.selectedStation = station;
     update();
+    $('.prevIcon').show();
   })
   return boxStation;
 }
