@@ -15,9 +15,7 @@ const listItem = (station, update) => {
   boxStation.on('click',(e)=>{
     e.preventDefault();
     state.selectedStation = station;
-    console.log(state.selectedStation);
     update();
-    console.log(update);
   })
   return boxStation;
 }

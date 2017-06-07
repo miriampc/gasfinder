@@ -10,13 +10,11 @@ const StationDetails = (update) => {
   detail.append(hr);
   detail.append(address);
 
-  var gasType;
-  state.selectedStation.products.forEach((e,i)=>{
-    gasType = $('<div class="gas-type">'+e+'</div>');
+  state.selectedStation.products.forEach((e)=>{
+    const gasType = $(`<div class="gas-type">${e}</div>`);
     detail.append(gasType);
   })
   const divDistance = $(`<div class="distance"></div>`);
-
   detail.append(divDistance);
 
   var latitud, longitud;
