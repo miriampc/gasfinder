@@ -85,6 +85,7 @@ input:-ms-input-placeholder { color: #fff; }
 #map {
   height: 60vh;
   width: 100%;
+  color: #212121;
 }
 
 .station-detail {
