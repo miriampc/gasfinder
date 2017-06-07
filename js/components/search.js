@@ -40,9 +40,6 @@ const ListStation = (update) => {
         const districtFiltered = filterByDistrict(state.stations,input.val());
         reRender(listContainer,districtFiltered,update);
       }
-      // }else {
-      //   render(root);
-      // }
   })
   return main;
 }

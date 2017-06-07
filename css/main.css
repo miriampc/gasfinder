@@ -9,7 +9,6 @@ body {
 }
 header {
   width: 100%;
-  /*color: #fff;*/
   font-size: 18px;
   height: 56px;
   line-height: 56px;
@@ -59,7 +58,7 @@ input:-ms-input-placeholder { color: #fff; }
   position: absolute;
   top: 38%;
   left: 5px;
-  /*color: #fff;*/
+
 }
 .list {
   padding: 2% 0;
@@ -68,7 +67,6 @@ input:-ms-input-placeholder { color: #fff; }
   width: 100%;
   height: auto;
   background: #525252;
-  /*color: #fff;*/
   padding: 2%;
   margin-bottom: 2px;
   display: flex;
@@ -83,6 +81,7 @@ input:-ms-input-placeholder { color: #fff; }
   color: #bdbdbd;
 }
 
+/*Style Station Details*/
 #map {
   height: 60vh;
   width: 100%;
