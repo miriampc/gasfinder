@@ -39,7 +39,7 @@ const StationDetails = (update) => {
       lng: state.selectedStation.long,
       title: state.selectedStation.name,
       infoWindow: {
-        content: '<div style="color:#212121;"><strong>Estacion de gas:</strong><p>'+state.selectedStation.address+'</p><7div>'
+        content: '<div style="color:#212121;"><strong>Estacion de gas:</strong><p>'+state.selectedStation.address+'</p></div>'
       }
     });
 
