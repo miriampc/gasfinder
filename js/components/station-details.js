@@ -39,7 +39,7 @@ const StationDetails = (update) => {
       lng: state.selectedStation.long,
       title: state.selectedStation.name,
       infoWindow: {
-        content: '<strong>Estacion de gas:</strong><p>'+state.selectedStation.address+'</p>'
+        content: '<div style="color:#212121;"><strong>Estacion de gas:</strong><p>'+state.selectedStation.address+'</p><7div>'
       }
     });
 
@@ -55,7 +55,7 @@ const StationDetails = (update) => {
           lat: latitud,
           lng: longitud,
           infoWindow: {
-            content: '<strong>Tu ubicacion:</strong><p>lima</p>'
+            content: '<div style="color:#212121;"><strong>Tu ubicacion:</strong><p>lima</p></div>'
           }
         });
         //Funcion para trazar la ruta
