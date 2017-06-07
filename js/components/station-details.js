@@ -1,21 +1,29 @@
 'use strict';
 const StationDetails = (update) => {
+  const detail = $('<section class="detail"></section>');
   const mapa = $('<div id="map"></div>');
-  const detail = $('<section class="station-detail"></section>');
+  const stationDetail = $('<div class="station-detail"></div>');
+  const dataDetail = $('<div class="data-detail"></div>');
+  const gasTypeDetail = $('<div class="gasType-detail"></div>');
   const h3 = $(`<h3>${state.selectedStation.name}</h3>`);
   const hr = $('<hr>');
   const address = $(`<p>${state.selectedStation.address}</p>`);
+
   detail.append(mapa);
-  detail.append(h3);
-  detail.append(hr);
-  detail.append(address);
+  stationDetail.append(h3);
+  stationDetail.append(address);
+  stationDetail.append(hr);
 
   state.selectedStation.products.forEach((e)=>{
     const gasType = $(`<div class="gas-type">${e}</div>`);
-    detail.append(gasType);
+    gasTypeDetail.append(gasType);
   })
   const divDistance = $(`<div class="distance"></div>`);
-  detail.append(divDistance);
+
+  dataDetail.append(gasTypeDetail);
+  dataDetail.append(divDistance);
+  stationDetail.append(dataDetail);
+  detail.append(stationDetail);
 
   var latitud, longitud;
   $(_=>{
@@ -66,7 +74,7 @@ const StationDetails = (update) => {
           callback: function(response){
               var duration = response[0].legs[0].duration.text;
               var distance = response[0].legs[0].distance.value/1000;
-              divDistance.append(`Distancia: ${distance} \n Tiempo:${duration}`)
+              divDistance.append(`<strong>Distancia: </strong> ${distance} Km. <br> <strong>Tiempo: </strong>${duration}`)
           }
         });
       },

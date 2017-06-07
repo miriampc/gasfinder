@@ -23,11 +23,15 @@ const listItem = (station, update) => {
 
 const ListStation = (update) => {
   const main = $('<section class="main"></section>');
+  const divSearch = $('<div class="search-input"></div>');
   const listContainer = $('<div class="list"></div>');
-  const input = $('<input id="search" type="search" placeholder="Ingresa tu distrito a buscar" autofocus>');
+  const input = $('<input type="search" placeholder="Ingresa tu distrito a buscar" autofocus>');
+  const iconSearch = $('<i class="fa fa-search" aria-hidden="true"></i>');
   const hr = $('<hr>');
 
-  main.append(input);
+  divSearch.append(iconSearch);
+  divSearch.append(input);
+  main.append(divSearch);
   main.append(hr);
   main.append(listContainer);
 

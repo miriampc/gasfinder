@@ -4,36 +4,62 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
+body {
+  color: #fff;
+}
 header {
   width: 100%;
-  color: #fff;
+  /*color: #fff;*/
   font-size: 18px;
   height: 56px;
   line-height: 56px;
   padding-left: 16px;
   background-color: #F44336;
 }
-
-header .fa-chevron-left {
-  margin-right: 16px;
+a{
+  color: #fff;
+  margin-right: 10px;
 }
+
 .display-none {
   display: none;
 }
 .main {
   padding: 2%;
-  background: rgb(232, 174, 176);
+  background: #e8aeb0;
 }
 
-input {
-  height: 30px;
+.search-input {
+  position: relative;
+}
+
+.search-input input {
+  height: 40px;
   width: 70%;
-  border: none;
   margin-left: 20px;
   font-size: 1.08rem;
-  padding: 3px;
+  padding: 3px 2px 3px 28px;
   margin: 2% 0;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+}
+
+input:focus {
+  outline-style: none;
+}
+
+input::-webkit-input-placeholder { color: #fff; } /* WebKit */
+input:-moz-placeholder { color: #fff; } /* Firefox 18- */
+input::-moz-placeholder { color: #fff; } /* Firefox 19+ */
+input:-ms-input-placeholder { color: #fff; }
+
+.fa-search {
+  position: absolute;
+  top: 38%;
+  left: 5px;
+  /*color: #fff;*/
 }
 .list {
   padding: 2% 0;
@@ -41,26 +67,54 @@ input {
 .box-station {
   width: 100%;
   height: auto;
-  background: #212121;
-  color: #fff;
+  background: #525252;
+  /*color: #fff;*/
   padding: 2%;
   margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .data-station {
   width: 80%;
   display: inline-block;
 }
+.fa-map:hover {
+  color: #bdbdbd;
+}
 
 #map {
-  height: 40vh;
+  height: 60vh;
   width: 100%;
+}
+
+.station-detail {
+  padding: 3%;
+  color: #212121;
+}
+
+.station-detail hr{
+  margin: 3px 0;
+}
+.data-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gasType-detail{
+  width: 60%;
+}
+.distance {
+  width: 40%;
 }
 
 .gas-type {
   display: inline-block;
-  border: 1px solid #000;
-  width: 30px;
-  height: 30px;
+  border: 2px solid #cb2121;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
   margin: 2%;
-  padding: 5px;
+  padding: 8px;
+  background: #e8aeb0;
 }
