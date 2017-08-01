@@ -1,29 +1,127 @@
 [{
-  "name": "Acosa",
-  "address": "Av. Elmer Faucett 390",
-  "district": "San Miguel",
-  "lat": -12.0677349,
-  "long": -77.0967019,
-  "products": [86,90,95,97]
+ "name": "Acosa",
+ "address": "Av. Elmer Faucett 390",
+ "district": "San Miguel",
+ "lat": -12.0677349,
+ "long": -77.0967019,
+ "products": [86,90,95,97]
 },{
-  "name": "Grifo PECSA",
-  "address": "Av. La Marina 405",
-  "district": "La Perla",
-  "lat": -12.0671961,
-  "long": -77.1178952,
+ "name": "Grifo PECSA",
+ "address": "Av. La Marina 405",
+ "district": "La Perla",
+ "lat": -12.0671961,
+ "long": -77.1178952,
+ "products": [90,95,97]
+},{
+ "name": "El Carmelo",
+ "address": "Av Sánchez Carrion 471",
+ "district": "Jesús María",
+ "lat": -12.0870742,
+ "long": -77.0352733,
+ "products": [90,95]
+},{
+ "name": "Gasolinas de América",
+ "address": "Petit thouars 3305 - 3307",
+ "district": "San Isidro",
+ "lat": -12.0956306,
+ "long": -77.0321242,
+ "products": [86,90,95,97]
+},{
+  "name": "Grifo San Ignacio S.A.C.",
+  "address": "Av. Arenales N°881 Esq. Emilio Fernandez",
+  "district": "Lince",
+  "lat": -12.0733818,
+  "long": -77.0388682,
+  "products": [90,95,98]
+},{
+  "name": "Repsol San Ignacio S.A.C.",
+    "address": "Av. Argentina N°3003 -3005",
+  "district": "Callao",
+  "lat": -12.04991,
+  "long":-77.1139905 ,
   "products": [90,95,97]
 },{
-  "name": "El carmelo",
-  "address": "Av Sánchez Carrion 471",
-  "district": "Jesús María",
-  "lat": -12.0870742,
-  "long": -77.0352733,
-  "products": [90,95]
+  "name": "Repsol Comercial S.A.C.",
+  "address": "Av. Colonial N° 1817-1821",
+  "district": "Lima",
+  "lat": -12.0479384,
+  "long": -77.0467142,
+  "products": [86,90,95,97]
 },{
-  "name": "Gasolinas de america",
-  "address": "Petit thouars 3305 - 3307",
-  "district": "San Isidro",
-  "lat": -12.0956306,
-  "long": -77.0321242,
+  "name": "Corporación de Servicentros S.A.C.",
+  "address": "Av. Oscar Benavides N°930",
+  "district": "Lima",
+  "lat":-12.0465601,
+  "long":-77.0449311 ,
+  "products": [90,95,98,50]
+},{
+  "name": "Explorium S.A.C.",
+  "address": "Av.Venezuela N° 1829 intersección Av.Tingo María",
+  "district": "Lima",
+  "lat": -12.0555237,
+  "long": -77.0580634,
+  "products": [95,98,90,50]
+},{
+  "name": "Servicentro Smile S.A.",
+  "address": "Calle los Orfebreros N°129, Urb.Industrial El Artesano",
+  "district": "Ate",
+  "lat":-12.0636949,
+  "long": -76.9639354 ,
+  "products": [86,90,95,97]
+},{
+  "name": "Repsol Comercial S.A.C.",
+  "address": "Av.Universitaria Sur N° 546, con frente Calle Materiales N° 156",
+  "district": "Lima",
+  "lat": 11.9882615,
+  "long":-77.0811375,
+  "products": [90,98,95,"S-50"]
+},{
+  "name": "Gaspetroleo S.A.C.",
+  "address": "Av. Nicolas Ayllon,Esquina con Av. La Molina",
+  "district": "Ate",
+  "lat": -12.0501177,
+  "long": -76.955269,
+  "products": [86,90,95,97]
+},{
+  "name": "Repsol Comercial S.A.C.",
+  "address": "Esq. Av. Los Ingenieros y Av.Separadora Industrial N°2503",
+  "district": "Ate",
+  "lat": -12.0538164,
+  "long": -76.9419214,
+  "products": [86,90,95,97]
+},{
+  "name": "Corgas S.A.C.",
+  "address": "Av. Las Torres N°497, Urb. Los Sauces",
+  "district": "Ate",
+  "lat":-12.070371,
+  "long": -76.988621 ,
+  "products": [86,90,95,97]
+},{
+  "name": "Gas Escorpio S.R.L.",
+  "address": "Av. La Molina N° 377-397 ,Parcela Semirustica La Molina",
+  "district": "Ate",
+  "lat":-12.0819966,
+  "long": -76.968253 ,
+  "products": [90,95,97]
+},{
+  "name": "Corporación Lumar S.A.C.",
+  "address": "Jr.Huaraz N°1484-1494 Esquina con Jr. Restauración",
+  "district": "Breña",
+  "lat": -12.0658808,
+  "long": -77.0488825,
+  "products": [86,90,95,97]
+},{
+  "name": "Duogas S.A.",
+  "address": "Av.Arica N° 580-590 Esq. con Jr.Jorge Chavez",
+  "district": "Breña",
+  "lat": -12.0598311,
+  "long": -77.0479514,
+  "products": [86,90,95,97]
+},{
+  "name": "Asesoria Comercial S.A.",
+  "address": "Av.Tingo María N°1711",
+  "district": "Breña",
+  "lat":-12.0487238,
+  "long": -77.053778 ,
   "products": [86,90,95,97]
 }]
